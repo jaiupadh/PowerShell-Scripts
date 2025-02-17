@@ -3,7 +3,7 @@
 #                                   Authored by JAIUPADH on 17/12/2022                        #
 ###############################################################################################
 
-$Hostname = Read-Host "`n Please enter Hostname of the device to fetch it's 42 digit Bitlocker Recovery Key"
+$Hostname = Read-Host "`n Please enter Hostname of the device to fetch it's 42 digit BitLocker Recovery Key"
 
 $objComputer = Get-ADComputer $Hostname
 
